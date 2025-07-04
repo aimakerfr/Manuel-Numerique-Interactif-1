@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/manuel-numerique">
       <div className="min-h-screen bg-gray-50">
         <Navbar
           onSearchClick={() => setIsSearchOpen(true)}
